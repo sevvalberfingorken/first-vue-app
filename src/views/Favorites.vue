@@ -6,7 +6,7 @@
       <!-- Dialog -->
       <v-dialog v-model="confirmDialog" persistent max-width="400">
         <v-card>
-          <v-card-text class="text-h6">
+          <v-card-text class="text-h5">
             Are you sure you want to remove "{{ filmToRemove?.title }}" from favorites?
           </v-card-text>
           <v-card-actions>
